@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E308AF2F17970E6300B3E7C6 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E308AF2E17970E6200B3E7C6 /* ChildViewController.m */; };
+		E308AF32179718DE00B3E7C6 /* ProtocolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E308AF31179718DE00B3E7C6 /* ProtocolsViewController.m */; };
+		E308AF3517976B1200B3E7C6 /* decider.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF3417976B1200B3E7C6 /* decider.html */; };
+		E308AF3717976EFC00B3E7C6 /* checkIn.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF3617976EFC00B3E7C6 /* checkIn.html */; };
+		E308AF3917976FD700B3E7C6 /* resolution.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF3817976FD700B3E7C6 /* resolution.html */; };
+		E308AF3B1797707800B3E7C6 /* perfectionGame.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF3A1797707800B3E7C6 /* perfectionGame.html */; };
+		E308AF3D179786A800B3E7C6 /* checkOut.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF3C179786A800B3E7C6 /* checkOut.html */; };
+		E308AF3F1797870700B3E7C6 /* pass.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF3E1797870700B3E7C6 /* pass.html */; };
+		E308AF411797875B00B3E7C6 /* askForHelp.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF401797875B00B3E7C6 /* askForHelp.html */; };
+		E308AF43179787C900B3E7C6 /* investigate.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF42179787C900B3E7C6 /* investigate.html */; };
+		E308AF451797881F00B3E7C6 /* intentionCheck.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF441797881F00B3E7C6 /* intentionCheck.html */; };
+		E308AF471797887B00B3E7C6 /* protocolCheck.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF461797887B00B3E7C6 /* protocolCheck.html */; };
+		E308AF49179788C700B3E7C6 /* personalAlignment.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF48179788C700B3E7C6 /* personalAlignment.html */; };
+		E308AF4B17978ED000B3E7C6 /* commitments.html in Resources */ = {isa = PBXBuildFile; fileRef = E308AF4A17978ED000B3E7C6 /* commitments.html */; };
 		E3EA17461797070800503FF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA17451797070800503FF8 /* UIKit.framework */; };
 		E3EA17481797070800503FF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA17471797070800503FF8 /* Foundation.framework */; };
 		E3EA174A1797070800503FF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA17491797070800503FF8 /* CoreGraphics.framework */; };
@@ -18,7 +32,7 @@
 		E3EA175C1797070800503FF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EA175B1797070800503FF8 /* Default-568h@2x.png */; };
 		E3EA175F1797070800503FF8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EA175D1797070800503FF8 /* MainStoryboard_iPhone.storyboard */; };
 		E3EA17621797070800503FF8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EA17601797070800503FF8 /* MainStoryboard_iPad.storyboard */; };
-		E3EA17651797070800503FF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA17641797070800503FF8 /* ViewController.m */; };
+		E3EA17651797070800503FF8 /* CoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA17641797070800503FF8 /* CoreTableViewController.m */; };
 		E3EA176D1797070800503FF8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA176C1797070800503FF8 /* SenTestingKit.framework */; };
 		E3EA176E1797070800503FF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA17451797070800503FF8 /* UIKit.framework */; };
 		E3EA176F1797070800503FF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA17471797070800503FF8 /* Foundation.framework */; };
@@ -37,6 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E308AF2D17970E6200B3E7C6 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		E308AF2E17970E6200B3E7C6 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		E308AF30179718DE00B3E7C6 /* ProtocolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolsViewController.h; sourceTree = "<group>"; };
+		E308AF31179718DE00B3E7C6 /* ProtocolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolsViewController.m; sourceTree = "<group>"; };
+		E308AF3417976B1200B3E7C6 /* decider.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = decider.html; path = "protocols html/decider.html"; sourceTree = "<group>"; };
+		E308AF3617976EFC00B3E7C6 /* checkIn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = checkIn.html; path = "protocols html/checkIn.html"; sourceTree = "<group>"; };
+		E308AF3817976FD700B3E7C6 /* resolution.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = resolution.html; path = "protocols html/resolution.html"; sourceTree = "<group>"; };
+		E308AF3A1797707800B3E7C6 /* perfectionGame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = perfectionGame.html; path = "protocols html/perfectionGame.html"; sourceTree = "<group>"; };
+		E308AF3C179786A800B3E7C6 /* checkOut.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = checkOut.html; path = "protocols html/checkOut.html"; sourceTree = "<group>"; };
+		E308AF3E1797870700B3E7C6 /* pass.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pass.html; path = "protocols html/pass.html"; sourceTree = "<group>"; };
+		E308AF401797875B00B3E7C6 /* askForHelp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = askForHelp.html; path = "protocols html/askForHelp.html"; sourceTree = "<group>"; };
+		E308AF42179787C900B3E7C6 /* investigate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = investigate.html; path = "protocols html/investigate.html"; sourceTree = "<group>"; };
+		E308AF441797881F00B3E7C6 /* intentionCheck.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = intentionCheck.html; path = "protocols html/intentionCheck.html"; sourceTree = "<group>"; };
+		E308AF461797887B00B3E7C6 /* protocolCheck.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = protocolCheck.html; path = "protocols html/protocolCheck.html"; sourceTree = "<group>"; };
+		E308AF48179788C700B3E7C6 /* personalAlignment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = personalAlignment.html; path = "protocols html/personalAlignment.html"; sourceTree = "<group>"; };
+		E308AF4A17978ED000B3E7C6 /* commitments.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = commitments.html; path = "protocols html/commitments.html"; sourceTree = "<group>"; };
 		E3EA17421797070800503FF8 /* The Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Core.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EA17451797070800503FF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3EA17471797070800503FF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,8 +82,8 @@
 		E3EA175B1797070800503FF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E3EA175E1797070800503FF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		E3EA17611797070800503FF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		E3EA17631797070800503FF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3EA17641797070800503FF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3EA17631797070800503FF8 /* CoreTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTableViewController.h; sourceTree = "<group>"; };
+		E3EA17641797070800503FF8 /* CoreTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTableViewController.m; sourceTree = "<group>"; };
 		E3EA176B1797070800503FF8 /* The CoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The CoreTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EA176C1797070800503FF8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E3EA17741797070800503FF8 /* The CoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The CoreTests-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +116,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E308AF3317976AD200B3E7C6 /* protocols html */ = {
+			isa = PBXGroup;
+			children = (
+				E308AF3417976B1200B3E7C6 /* decider.html */,
+				E308AF3617976EFC00B3E7C6 /* checkIn.html */,
+				E308AF3817976FD700B3E7C6 /* resolution.html */,
+				E308AF3A1797707800B3E7C6 /* perfectionGame.html */,
+				E308AF3C179786A800B3E7C6 /* checkOut.html */,
+				E308AF3E1797870700B3E7C6 /* pass.html */,
+				E308AF401797875B00B3E7C6 /* askForHelp.html */,
+				E308AF42179787C900B3E7C6 /* investigate.html */,
+				E308AF441797881F00B3E7C6 /* intentionCheck.html */,
+				E308AF461797887B00B3E7C6 /* protocolCheck.html */,
+				E308AF48179788C700B3E7C6 /* personalAlignment.html */,
+				E308AF4A17978ED000B3E7C6 /* commitments.html */,
+			);
+			name = "protocols html";
+			sourceTree = "<group>";
+		};
 		E3EA17391797070800503FF8 = {
 			isa = PBXGroup;
 			children = (
@@ -123,9 +172,13 @@
 				E3EA17551797070800503FF8 /* AppDelegate.m */,
 				E3EA175D1797070800503FF8 /* MainStoryboard_iPhone.storyboard */,
 				E3EA17601797070800503FF8 /* MainStoryboard_iPad.storyboard */,
-				E3EA17631797070800503FF8 /* ViewController.h */,
-				E3EA17641797070800503FF8 /* ViewController.m */,
+				E3EA17631797070800503FF8 /* CoreTableViewController.h */,
+				E3EA17641797070800503FF8 /* CoreTableViewController.m */,
 				E3EA174C1797070800503FF8 /* Supporting Files */,
+				E308AF2D17970E6200B3E7C6 /* ChildViewController.h */,
+				E308AF2E17970E6200B3E7C6 /* ChildViewController.m */,
+				E308AF30179718DE00B3E7C6 /* ProtocolsViewController.h */,
+				E308AF31179718DE00B3E7C6 /* ProtocolsViewController.m */,
 			);
 			path = "The Core";
 			sourceTree = "<group>";
@@ -133,6 +186,7 @@
 		E3EA174C1797070800503FF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E308AF3317976AD200B3E7C6 /* protocols html */,
 				E3EA174D1797070800503FF8 /* The Core-Info.plist */,
 				E3EA174E1797070800503FF8 /* InfoPlist.strings */,
 				E3EA17511797070800503FF8 /* main.m */,
@@ -240,6 +294,18 @@
 				E3EA175C1797070800503FF8 /* Default-568h@2x.png in Resources */,
 				E3EA175F1797070800503FF8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E3EA17621797070800503FF8 /* MainStoryboard_iPad.storyboard in Resources */,
+				E308AF3517976B1200B3E7C6 /* decider.html in Resources */,
+				E308AF3717976EFC00B3E7C6 /* checkIn.html in Resources */,
+				E308AF3917976FD700B3E7C6 /* resolution.html in Resources */,
+				E308AF3B1797707800B3E7C6 /* perfectionGame.html in Resources */,
+				E308AF3D179786A800B3E7C6 /* checkOut.html in Resources */,
+				E308AF3F1797870700B3E7C6 /* pass.html in Resources */,
+				E308AF411797875B00B3E7C6 /* askForHelp.html in Resources */,
+				E308AF43179787C900B3E7C6 /* investigate.html in Resources */,
+				E308AF451797881F00B3E7C6 /* intentionCheck.html in Resources */,
+				E308AF471797887B00B3E7C6 /* protocolCheck.html in Resources */,
+				E308AF49179788C700B3E7C6 /* personalAlignment.html in Resources */,
+				E308AF4B17978ED000B3E7C6 /* commitments.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +342,9 @@
 			files = (
 				E3EA17521797070800503FF8 /* main.m in Sources */,
 				E3EA17561797070800503FF8 /* AppDelegate.m in Sources */,
-				E3EA17651797070800503FF8 /* ViewController.m in Sources */,
+				E3EA17651797070800503FF8 /* CoreTableViewController.m in Sources */,
+				E308AF2F17970E6300B3E7C6 /* ChildViewController.m in Sources */,
+				E308AF32179718DE00B3E7C6 /* ProtocolsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +535,7 @@
 				E3EA177F1797070800503FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EA17801797070800503FF8 /* Build configuration list for PBXNativeTarget "The CoreTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +544,7 @@
 				E3EA17821797070800503FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

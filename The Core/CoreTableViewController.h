@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CoreTableViewController : UITableViewController<UITableViewDelegate>
+
+-(IBAction)unwindToCoreTableViewController:(UIStoryboardSegue *) segue;
 
 @end
