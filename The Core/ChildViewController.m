@@ -29,11 +29,10 @@
   if (nil != self.myContentFileName)
   {
     NSString *theHtmlFile = [[NSBundle mainBundle] pathForResource:self.myContentFileName
-                                                            ofType:@"html"];
-    NSString* theHtmlString = [NSString stringWithContentsOfFile:theHtmlFile
-                                                        encoding:NSUTF8StringEncoding
-                                                           error:nil];
-    [self.myWebView loadHTMLString:theHtmlString baseURL:nil];
+                                                            ofType:@"html"
+                                                       inDirectory:@"protocols html"];
+    NSURL* theUrl= [NSURL fileURLWithPath:theHtmlFile];
+    [self.myWebView loadRequest:[NSURLRequest requestWithURL:theUrl]];
   }
   
   if (nil != self.myTitleText)
